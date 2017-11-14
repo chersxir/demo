@@ -37,5 +37,14 @@
     
 `git branch -a`显示所有分支   
 2017/11/13 23:53:27 
+
+`git branch -D 分支`删除本地分支	
+`git push origin :br` 删除远程分支	
+`git reset --hard commit-id `本地回滚到commit-id，讲commit-id之后提交的commit都去除
+
+`git reset --hard HEAD~3`本地将最近3次的提交回滚	
+`git remote show origin`查看remote地址，远程分支，还有本地分支与之相对应关系等信息	
+`git remote prune origin`删除了那些远程仓库不存在的分支	
+
     
     
