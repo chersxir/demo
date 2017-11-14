@@ -1,3 +1,0 @@
-today is tuesday.
-i use git for the first time.
-	2017/11/13
